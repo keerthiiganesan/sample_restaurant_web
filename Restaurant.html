@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body{
+            /* background-color: black;
+            background-image: url('./images.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 50px 50px;
+            width:100px;
+            height: 10px; */
+            background: rgba(0,0,0,0.7) url(./images.jpeg) center center fixed;
+            background-size: cover;
+            background-blend-mode:hard-light;
+        }
+        .glow {
+        font-size: 80px;
+        color: #fff;
+        text-align: center;
+        animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        
+        to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+        }
+        .container{
+            background-color: black;
+            border: 10px solid gold;
+        }
+        nav{
+           text-align: center;
+            margin-left: 300px;
+
+        }
+        ul li{
+            float: left;
+            list-style:none;
+            margin-bottom: 50px;
+            /* background-color:violet; */
+            padding: 15px;
+            box-shadow:1.95px 1.95px rgba(100,0,0);
+            text-transform: uppercase; 
+            color: white;        
+        }
+        ul li:hover{
+            background-color: red;
+        }
+        nav ul{
+              transform: skew(-25deg);   
+              position: absolute;          
+        }
+        h1{
+            color: white;
+        }
+        .button {
+        border: 1px transparent;
+        -webkit-border-radius: 40px;
+        border-radius: 40px;
+        color: #eeeeee;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Arial;
+        font-size: 20px;
+        padding: 8px 30px;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 20px;
+        -webkit-animation: glowing 1300ms infinite;
+        -moz-animation: glowing 1300ms infinite;
+        -o-animation: glowing 1300ms infinite;
+        animation: glowing 1300ms infinite;
+      }
+      @-webkit-keyframes glowing {
+        0% {
+          background-color: #0091b2;
+          -webkit-box-shadow: 0 0 3px #0091b2;
+        }
+        50% {
+          background-color: #21c7ed;
+          -webkit-box-shadow: 0 0 15px #21c7ed;
+        }
+        100% {
+          background-color: #0091b2;
+          -webkit-box-shadow: 0 0 3px #0091b2;
+        }
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #0091b2;
+          box-shadow: 0 0 3px #0091b2;
+        }
+        50% {
+          background-color: #21c7ed;
+          box-shadow: 0 0 15px #21c7ed;
+        }
+        100% {
+          background-color: #0091b2;
+          box-shadow: 0 0 3px #0091b2;
+        }
+      }
+        #about{
+            margin-top: 600px;
+            background-image: url('./download\ \(5\).jpeg');          
+        }
+        p{
+          text-align: left;
+          color:white;
+          float:inline-start; 
+        }
+        #menu{
+            background-color: #e60073;
+            background-size: cover;
+            text-align: center;
+            
+        }
+        #contact{
+            height: 200px;
+            background-image: url('./download\ \(5\).jpeg');  
+
+        }
+        /* #menuorder{
+            margin-left: 10%;
+        } */
+    </style>
+</head>
+<body>
+        <link rel="icon" href="E:\html tutorial\logo(3).png" sizes="0.5%">
+
+    <div class="container">
+       <marquee direction="right"><h1 class="glow">RESTAURANT FOOD</h1></marquee> 
+       
+        <nav>
+            <ul>
+                <!-- ul>li*4>a{menu} -->
+                <li><a class="button" href="#">Home</a></li>
+                <li><a class="button"href="#about">ABOUT US</a></li>
+                <li><a class="button"href="#menu">MENU</a></li>
+                <li><a class="button" href="#gallery">GALLERY</a></li>
+                <li><a class="button" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="about" >
+        <div>
+             <h1 style="text-align: center;color:gold ;">GOOD FOOD FOR YOUR ALL DAY GOOD MOOD</h1>
+             <p style="text-align: left;font-weight: 900;">Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.
+
+                Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.<br>
+
+              Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.</p>
+            <img src="E:\html tutorial\images (1).jpeg" alt="Luxury" width="40%" title="Luxury Restaurant">
+            <img src="E:\html tutorial\download (3).jpeg" alt="Luxury" width="40%" title="Restaurant" style="margin-left: 30px;">
+            
+        
+</div>
+
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br>
+    <div id="menu">
+        <h1>OUR MENU</h1>
+        <div id="menuorder">
+                <ul>
+                    <li><a href="https://www.sweetestmenu.com/" >DESERTS</a><br><br>
+                        <img src="E:\html tutorial\deserts.jpg" width="50%">
+                    </li>
+                    <li><a href="">SALADS</a><br><br>
+                        <img src="E:\html tutorial\salad(1).jpeg">
+                    </li>
+                    <li><a href="">PIZZAS</a><br><br>   
+                        <img src="E:\html tutorial\pizza.jpeg">
+                    </li>
+                    <li><a href="">DRINKS</a><br><br>
+                        <img src="E:\html tutorial\drink.jpeg">     
+                    </li>
+<!--              
+                    <li><a href="">BURGERS</a><br><br>
+                        <img src="E:\html tutorial\burger.jpeg">
+                    </li> -->
+                
+            </ul>
+            
+        </div>
+    </div ><br><br><br><br><br><br><br> <br><br><br><br><br><br> <br><br><br><br><br><br> <br><br><br><br><br><br> <br>
+    <div id="gallery" style="margin-left: 5%; margin-top: 30%;">
+        <h1 style="text-align: center;background-color: #e60073;">GALLERY</h1>
+        <div>
+            <img src="E:\html tutorial\image\grocery.jpg" width="30%">
+            <img src="E:\html tutorial\image\veg.jpeg" width="30%" height="210px">
+            <img src="E:\html tutorial\image\grocery.jpg" width="30%">
+        </div>
+        <div>
+            <img src="E:\html tutorial\desertss.jpeg" width="30%" height="200px" style="margin-bottom: 400px;">
+            <img src="E:\html tutorial\deserts.jpg" width="30%" height="210px" style="margin-bottom: 390px;">
+            <img src="E:\html tutorial\desertss.jpeg" width="30%" height="200px" style="margin-bottom: 400px;">
+        </div>
+    </div>
+
+    <div id="contact">
+        <i class="fa-solid fa-leaf" style='color: green;'></i>
+        <h1 style="text-align: center;">CONTACTS</h1>
+        <div>
+            <i class="fa-sharp fa-solid fa-location-dot" style='color: green; width:30%'font-size:48px;><span>LOCATION</span></i>
+        </div>
+        <div>
+            <p style='color: white;font-size:20px;'>Hosur road, Kudlu Gate, Banglore</p>        
+        </div>
+        <div>
+            <i class="fa-sharp fa-solid fa-phone-flip" style='color: yellow;font-size:20px; margin-left:30px; width:30%'><span>PHONE</span></i>
+        </div>
+        <div>
+            <p style='color: white;font-size:20px; margin-left:30px;'>8900 0408 1208</p>
+        </div>
+        <div>
+            <i class="fa-sharp fa-solid fa-envelope" style='color: yellow;font-size:20px; margin-left:30px;  width:30%'><span>EMAIL</span></i>
+        </div>
+        <div>
+            <p style='color: white;font-size:20px; margin-left:30px; margin-bottom: 50%;'>infastfood.com</p>
+        </div>
+        <i class="fa-brands fa-square-facebook"  style='color: yellow;font-size:20px; margin-left:30px;'></i> 
+        <i class="fa-brands fa-square-instagram"  style='color: yellow;font-size:20px; margin-left:30px;'></i> 
+        <i class="fa-brands fa-square-twitter"  style='color: yellow;font-size:20px; margin-left:30px;'></i> 
+        <i class="fa-brands fa-youtube"  style='color: yellow;font-size:20px; margin-left:30px;'></i>
+
+                <!-- <i class='fas fa-wine-glass' style='font-size:48px;color:red'></i> -->
+
+         
+    </div>
+   
+
+      
+   
+</body>
+</html>
